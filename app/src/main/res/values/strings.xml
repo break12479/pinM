@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MemoryAI</string>
+    <string name="timeline">时间线</string>
+    <string name="search">搜索</string>
+    <string name="qa">问答</string>
+    <string name="settings">设置</string>
+    <string name="new_memory">新建记录</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="confirm_delete">确认删除</string>
+    <string name="delete_confirm_message">确定要删除这条记录吗？此操作不可恢复。</string>
+    <string name="content_hint">记录你的想法、事件或感悟...</string>
+    <string name="search_hint">搜索记忆...</string>
+    <string name="ask_hint">问我任何问题...</string>
+    <string name="no_memories">暂无记录</string>
+    <string name="loading">加载中...</string>
+    <string name="error">出错了</string>
+    <string name="retry">重试</string>
+    <string name="api_config">AI 配置</string>
+    <string name="api_key">API Key</string>
+    <string name="api_key_hint">输入你的 API Key</string>
+    <string name="base_url">自定义 Base URL</string>
+    <string name="base_url_hint">可选，留空使用默认</string>
+    <string name="embedding_model">嵌入模型</string>
+    <string name="llm_model">LLM 模型</string>
+    <string name="backup">备份</string>
+    <string name="restore">恢复</string>
+    <string name="export_backup">导出备份</string>
+    <string name="import_backup">导入备份</string>
+    <string name="about">关于</string>
+    <string name="version">版本</string>
+</resources>
