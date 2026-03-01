@@ -1,16 +1,16 @@
-package com.pinmem.memoryai.data.local.database
+package com.pinmem.pinm.data.local.database
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import com.pinmem.memoryai.data.model.AIConfig
-import com.pinmem.memoryai.data.model.EmbeddingQueue
-import com.pinmem.memoryai.data.model.Memory
-import com.pinmem.memoryai.data.model.QAHistory
-import com.pinmem.memoryai.data.model.SearchHistory
-import com.pinmem.memoryai.data.model.Tag
+import com.pinmem.pinm.data.model.AIConfig
+import com.pinmem.pinm.data.model.EmbeddingQueue
+import com.pinmem.pinm.data.model.Memory
+import com.pinmem.pinm.data.model.QAHistory
+import com.pinmem.pinm.data.model.SearchHistory
+import com.pinmem.pinm.data.model.Tag
 
 /**
  * MemoryAI 数据库
@@ -49,7 +49,7 @@ abstract class MemoryDatabase : RoomDatabase() {
     abstract fun embeddingQueueDao(): EmbeddingQueueDao
 
     companion object {
-        private const val DATABASE_NAME = "memoryai_database"
+        private const val DATABASE_NAME = "pinm_database"
 
         @Volatile
         private var INSTANCE: MemoryDatabase? = null

@@ -1,4 +1,4 @@
-package com.pinmem.memoryai.data.local.database
+package com.pinmem.pinm.data.local.database
 
 import androidx.room.TypeConverter
 import kotlinx.serialization.encodeToString

@@ -1,4 +1,4 @@
-package com.pinmem.memoryai.ui.components
+package com.pinmem.pinm.ui.components
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape

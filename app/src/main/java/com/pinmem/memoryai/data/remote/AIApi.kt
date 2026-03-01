@@ -1,9 +1,9 @@
-package com.pinmem.memoryai.data.remote
+package com.pinmem.pinm.data.remote
 
-import com.pinmem.memoryai.data.remote.model.ChatCompletionRequest
-import com.pinmem.memoryai.data.remote.model.ChatCompletionResponse
-import com.pinmem.memoryai.data.remote.model.EmbeddingRequest
-import com.pinmem.memoryai.data.remote.model.EmbeddingResponse
+import com.pinmem.pinm.data.remote.model.ChatCompletionRequest
+import com.pinmem.pinm.data.remote.model.ChatCompletionResponse
+import com.pinmem.pinm.data.remote.model.EmbeddingRequest
+import com.pinmem.pinm.data.remote.model.EmbeddingResponse
 import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.Header

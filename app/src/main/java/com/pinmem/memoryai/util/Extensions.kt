@@ -1,4 +1,4 @@
-package com.pinmem.memoryai.util
+package com.pinmem.pinm.util
 
 /**
  * 扩展函数集合

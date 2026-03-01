@@ -1,7 +1,7 @@
-package com.pinmem.memoryai.data.local.vector
+package com.pinmem.pinm.data.local.vector
 
 import android.content.Context
-import com.pinmem.memoryai.util.AppLogger
+import com.pinmem.pinm.util.AppLogger
 
 /**
  * 向量存储工厂

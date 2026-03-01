@@ -1,4 +1,4 @@
-package com.pinmem.memoryai.util
+package com.pinmem.pinm.util
 
 import android.util.Log
 
@@ -6,7 +6,7 @@ import android.util.Log
  * 应用日志工具
  */
 object AppLogger {
-    private const val TAG = "MemoryAI"
+    private const val TAG = "pinM"
     private const val DEBUG = true  // 发布时设为 false
 
     fun d(message: String) {

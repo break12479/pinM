@@ -1,7 +1,7 @@
-package com.pinmem.memoryai.data.repository
+package com.pinmem.pinm.data.repository
 
-import com.pinmem.memoryai.data.local.database.TagDao
-import com.pinmem.memoryai.data.model.Tag
+import com.pinmem.pinm.data.local.database.TagDao
+import com.pinmem.pinm.data.model.Tag
 import kotlinx.coroutines.flow.Flow
 
 /**

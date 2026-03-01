@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3Api::class)
 
-package com.pinmem.memoryai.ui.search
+package com.pinmem.pinm.ui.search
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -18,12 +18,12 @@ import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.pinmem.memoryai.data.model.Memory
-import com.pinmem.memoryai.data.model.SearchHistory
-import com.pinmem.memoryai.data.model.SearchResult
-import com.pinmem.memoryai.ui.components.*
-import com.pinmem.memoryai.viewmodel.SearchUiState
-import com.pinmem.memoryai.viewmodel.SearchViewModel
+import com.pinmem.pinm.data.model.Memory
+import com.pinmem.pinm.data.model.SearchHistory
+import com.pinmem.pinm.data.model.SearchResult
+import com.pinmem.pinm.ui.components.*
+import com.pinmem.pinm.viewmodel.SearchUiState
+import com.pinmem.pinm.viewmodel.SearchViewModel
 import org.koin.androidx.compose.koinViewModel
 
 /**

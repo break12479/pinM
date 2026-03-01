@@ -1,10 +1,10 @@
-package com.pinmem.memoryai.data.repository
+package com.pinmem.pinm.data.repository
 
 import android.content.Context
 import android.net.Uri
-import com.pinmem.memoryai.data.local.database.MemoryDatabase
-import com.pinmem.memoryai.data.model.BackupInfo
-import com.pinmem.memoryai.util.AppLogger
+import com.pinmem.pinm.data.local.database.MemoryDatabase
+import com.pinmem.pinm.data.model.BackupInfo
+import com.pinmem.pinm.util.AppLogger
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.File
@@ -29,7 +29,7 @@ class BackupRepository(
             val backupFile = File(backupDir, "memoryai_backup_${System.currentTimeMillis()}.db")
 
             // 复制数据库文件
-            val dbFile = context.getDatabasePath("memoryai_database")
+            val dbFile = context.getDatabasePath("pinm_database")
             dbFile.copyTo(backupFile, overwrite = true)
 
             // 计算校验和
@@ -87,7 +87,7 @@ class BackupRepository(
             database.close()
 
             // 替换数据库文件
-            val dbFile = context.getDatabasePath("memoryai_database")
+            val dbFile = context.getDatabasePath("pinm_database")
             tempFile.copyTo(dbFile, overwrite = true)
 
             onProgress(100)

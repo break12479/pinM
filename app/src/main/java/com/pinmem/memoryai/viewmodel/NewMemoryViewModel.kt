@@ -1,9 +1,9 @@
-package com.pinmem.memoryai.viewmodel
+package com.pinmem.pinm.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.pinmem.memoryai.data.model.LocationInfo
-import com.pinmem.memoryai.data.repository.MemoryRepository
+import com.pinmem.pinm.data.model.LocationInfo
+import com.pinmem.pinm.data.repository.MemoryRepository
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.*

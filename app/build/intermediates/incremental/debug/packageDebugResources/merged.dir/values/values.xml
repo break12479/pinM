@@ -17,7 +17,7 @@
     <string name="api_config">AI 配置</string>
     <string name="api_key">API Key</string>
     <string name="api_key_hint">输入你的 API Key</string>
-    <string name="app_name">MemoryAI</string>
+    <string name="app_name">pinM</string>
     <string name="ask_hint">问我任何问题...</string>
     <string name="backup">备份</string>
     <string name="base_url">自定义 Base URL</string>
@@ -45,7 +45,7 @@
     <string name="settings">设置</string>
     <string name="timeline">时间线</string>
     <string name="version">版本</string>
-    <style name="Theme.MemoryAI" parent="android:Theme.Material.Light.NoActionBar">
+    <style name="Theme.pinM" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:statusBarColor">@color/memory_primary</item>
         <item name="android:navigationBarColor">@color/memory_primary</item>
     </style>

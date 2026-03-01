@@ -1,9 +1,9 @@
-package com.pinmem.memoryai
+package com.pinmem.pinm
 
 import android.app.Application
-import com.pinmem.memoryai.data.repository.AIConfigRepository
-import com.pinmem.memoryai.data.service.AIService
-import com.pinmem.memoryai.di.appModules
+import com.pinmem.pinm.data.repository.AIConfigRepository
+import com.pinmem.pinm.data.service.AIService
+import com.pinmem.pinm.di.appModules
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
@@ -16,9 +16,9 @@ import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
 
 /**
- * MemoryAI 应用程序入口
+ * pinM 应用程序入口
  */
-class MemoryAIApplication : Application(), KoinComponent {
+class PinMApplication : Application(), KoinComponent {
 
     private val applicationScope = CoroutineScope(SupervisorJob() + Dispatchers.Main)
 
@@ -28,7 +28,7 @@ class MemoryAIApplication : Application(), KoinComponent {
         // 初始化 Koin
         startKoin {
             androidLogger(Level.DEBUG)
-            androidContext(this@MemoryAIApplication)
+            androidContext(this@PinMApplication)
             modules(appModules)
         }
 

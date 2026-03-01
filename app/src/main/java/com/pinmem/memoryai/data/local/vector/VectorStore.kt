@@ -1,4 +1,4 @@
-package com.pinmem.memoryai.data.local.vector
+package com.pinmem.pinm.data.local.vector
 
 /**
  * 向量存储接口

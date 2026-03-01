@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.pinmem.memoryai.debug",
+  "applicationId": "com.pinmem.pinm.debug",
   "variantName": "debug",
   "elements": [
     {

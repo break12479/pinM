@@ -1,4 +1,4 @@
-package com.pinmem.memoryai.data.model
+package com.pinmem.pinm.data.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

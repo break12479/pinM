@@ -1,12 +1,12 @@
-package com.pinmem.memoryai.viewmodel
+package com.pinmem.pinm.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.pinmem.memoryai.data.model.Memory
-import com.pinmem.memoryai.data.model.LocationInfo
-import com.pinmem.memoryai.data.repository.MemoryRepository
-import com.pinmem.memoryai.ui.timeline.GroupedMemories
-import com.pinmem.memoryai.ui.timeline.groupByTime
+import com.pinmem.pinm.data.model.Memory
+import com.pinmem.pinm.data.model.LocationInfo
+import com.pinmem.pinm.data.repository.MemoryRepository
+import com.pinmem.pinm.ui.timeline.GroupedMemories
+import com.pinmem.pinm.ui.timeline.groupByTime
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 

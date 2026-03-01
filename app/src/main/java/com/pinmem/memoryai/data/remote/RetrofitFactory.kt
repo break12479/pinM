@@ -1,4 +1,4 @@
-package com.pinmem.memoryai.data.remote
+package com.pinmem.pinm.data.remote
 
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
 import kotlinx.serialization.json.Json

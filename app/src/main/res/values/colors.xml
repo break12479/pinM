@@ -8,7 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     
-    <!-- MemoryAI 主题色 -->
+    <!-- pinM 主题色 -->
     <color name="memory_primary">#FF6750A4</color>
     <color name="memory_primary_variant">#FF7F67BE</color>
     <color name="memory_secondary">#FF625B71</color>

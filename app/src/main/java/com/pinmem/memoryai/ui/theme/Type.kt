@@ -1,4 +1,4 @@
-package com.pinmem.memoryai.ui.theme
+package com.pinmem.pinm.ui.theme
 
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily

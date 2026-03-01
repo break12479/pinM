@@ -1,4 +1,4 @@
-package com.pinmem.memoryai.data.remote.model
+package com.pinmem.pinm.data.remote.model
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

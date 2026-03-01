@@ -1,10 +1,10 @@
-package com.pinmem.memoryai.viewmodel
+package com.pinmem.pinm.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.pinmem.memoryai.data.model.QAHistory
-import com.pinmem.memoryai.data.model.QAResponse
-import com.pinmem.memoryai.data.repository.QARepository
+import com.pinmem.pinm.data.model.QAHistory
+import com.pinmem.pinm.data.model.QAResponse
+import com.pinmem.pinm.data.repository.QARepository
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 

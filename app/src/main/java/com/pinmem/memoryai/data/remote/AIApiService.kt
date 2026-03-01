@@ -1,6 +1,6 @@
-package com.pinmem.memoryai.data.remote
+package com.pinmem.pinm.data.remote
 
-import com.pinmem.memoryai.data.model.AIConfig
+import com.pinmem.pinm.data.model.AIConfig
 
 /**
  * AI API 服务接口

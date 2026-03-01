@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3Api::class)
 
-package com.pinmem.memoryai.ui.newmemory
+package com.pinmem.pinm.ui.newmemory
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -14,9 +14,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.pinmem.memoryai.ui.components.LoadingIndicatorSmall
-import com.pinmem.memoryai.viewmodel.NewMemoryUiState
-import com.pinmem.memoryai.viewmodel.NewMemoryViewModel
+import com.pinmem.pinm.ui.components.LoadingIndicatorSmall
+import com.pinmem.pinm.viewmodel.NewMemoryUiState
+import com.pinmem.pinm.viewmodel.NewMemoryViewModel
 import org.koin.androidx.compose.koinViewModel
 import java.text.SimpleDateFormat
 import java.util.*

@@ -1,7 +1,7 @@
-package com.pinmem.memoryai.data.remote
+package com.pinmem.pinm.data.remote
 
-import com.pinmem.memoryai.data.model.AIConfig
-import com.pinmem.memoryai.util.AppLogger
+import com.pinmem.pinm.data.model.AIConfig
+import com.pinmem.pinm.util.AppLogger
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.encodeToString

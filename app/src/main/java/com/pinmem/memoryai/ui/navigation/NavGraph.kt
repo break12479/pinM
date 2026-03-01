@@ -1,4 +1,4 @@
-package com.pinmem.memoryai.ui.navigation
+package com.pinmem.pinm.ui.navigation
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.padding
@@ -12,12 +12,12 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.navArgument
-import com.pinmem.memoryai.ui.newmemory.NewMemoryScreen
-import com.pinmem.memoryai.ui.qa.QAScreen
-import com.pinmem.memoryai.ui.search.SearchScreen
-import com.pinmem.memoryai.ui.settings.SettingsScreen
-import com.pinmem.memoryai.ui.timeline.TimelineScreen
-import com.pinmem.memoryai.ui.navigation.MemoryDetailScreen
+import com.pinmem.pinm.ui.newmemory.NewMemoryScreen
+import com.pinmem.pinm.ui.qa.QAScreen
+import com.pinmem.pinm.ui.search.SearchScreen
+import com.pinmem.pinm.ui.settings.SettingsScreen
+import com.pinmem.pinm.ui.timeline.TimelineScreen
+import com.pinmem.pinm.ui.navigation.MemoryDetailScreen
 
 /**
  * 应用导航图

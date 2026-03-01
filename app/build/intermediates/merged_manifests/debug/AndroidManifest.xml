@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pinmem.memoryai.debug"
+    package="com.pinmem.pinm.debug"
     android:versionCode="1"
     android:versionName="1.0.0" >
 
@@ -29,13 +29,13 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
 
     <permission
-        android:name="com.pinmem.memoryai.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.pinmem.pinm.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.pinmem.memoryai.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.pinmem.pinm.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
-        android:name="com.pinmem.memoryai.MemoryAIApplication"
+        android:name="com.pinmem.pinm.PinMApplication"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -45,14 +45,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.MemoryAI"
+        android:theme="@style/Theme.pinM"
         android:usesCleartextTraffic="false" >
 
         <!-- 主 Activity -->
         <activity
-            android:name="com.pinmem.memoryai.MainActivity"
+            android:name="com.pinmem.pinm.MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.MemoryAI"
+            android:theme="@style/Theme.pinM"
             android:windowSoftInputMode="adjustResize" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -64,7 +64,7 @@
         <!-- 文件提供者 - 用于备份文件分享 -->
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.pinmem.memoryai.debug.fileprovider"
+            android:authorities="com.pinmem.pinm.debug.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -90,7 +90,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.pinmem.memoryai.debug.androidx-startup"
+            android:authorities="com.pinmem.pinm.debug.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

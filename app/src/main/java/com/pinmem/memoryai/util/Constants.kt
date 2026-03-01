@@ -1,4 +1,4 @@
-package com.pinmem.memoryai.util
+package com.pinmem.pinm.util
 
 /**
  * 常量定义
@@ -6,7 +6,7 @@ package com.pinmem.memoryai.util
 object Constants {
 
     // 数据库
-    const val DATABASE_NAME = "memoryai_database"
+    const val DATABASE_NAME = "pinm_database"
 
     // 分类
     val SCENE_CATEGORIES = listOf(

@@ -1,12 +1,12 @@
-package com.pinmem.memoryai.data.service
+package com.pinmem.pinm.data.service
 
-import com.pinmem.memoryai.data.model.AIConfig
-import com.pinmem.memoryai.data.remote.AIApi
-import com.pinmem.memoryai.data.remote.model.ChatCompletionRequest
-import com.pinmem.memoryai.data.remote.model.EmbeddingRequest
-import com.pinmem.memoryai.data.remote.model.Message
-import com.pinmem.memoryai.util.AppLogger
-import com.pinmem.memoryai.util.Constants
+import com.pinmem.pinm.data.model.AIConfig
+import com.pinmem.pinm.data.remote.AIApi
+import com.pinmem.pinm.data.remote.model.ChatCompletionRequest
+import com.pinmem.pinm.data.remote.model.EmbeddingRequest
+import com.pinmem.pinm.data.remote.model.Message
+import com.pinmem.pinm.util.AppLogger
+import com.pinmem.pinm.util.Constants
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import kotlinx.serialization.SerialName

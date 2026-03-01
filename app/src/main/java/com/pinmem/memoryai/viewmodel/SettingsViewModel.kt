@@ -1,11 +1,11 @@
-package com.pinmem.memoryai.viewmodel
+package com.pinmem.pinm.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.pinmem.memoryai.data.model.AIConfig
-import com.pinmem.memoryai.data.repository.AIConfigRepository
-import com.pinmem.memoryai.data.repository.BackupRepository
-import com.pinmem.memoryai.data.service.AIService
+import com.pinmem.pinm.data.model.AIConfig
+import com.pinmem.pinm.data.repository.AIConfigRepository
+import com.pinmem.pinm.data.repository.BackupRepository
+import com.pinmem.pinm.data.service.AIService
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 

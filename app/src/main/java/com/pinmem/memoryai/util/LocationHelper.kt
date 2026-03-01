@@ -1,4 +1,4 @@
-package com.pinmem.memoryai.util
+package com.pinmem.pinm.util
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -6,7 +6,7 @@ import android.location.Address
 import android.location.Geocoder
 import android.location.Location
 import com.google.android.gms.location.*
-import com.pinmem.memoryai.data.model.LocationInfo
+import com.pinmem.pinm.data.model.LocationInfo
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.suspendCancellableCoroutine

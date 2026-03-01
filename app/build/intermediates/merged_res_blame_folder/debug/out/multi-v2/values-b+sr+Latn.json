@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.pinmem.memoryai.app-mergeDebugResources-66:/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "outputFile": "com.pinmem.pinm.app-mergeDebugResources-66:/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\break\\.gradle\\caches\\8.10.2\\transforms\\8eb83895e4953a0cdbec46f5b122678d\\transformed\\foundation-release\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",

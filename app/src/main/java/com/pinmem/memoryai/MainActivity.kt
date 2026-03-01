@@ -1,4 +1,4 @@
-package com.pinmem.memoryai
+package com.pinmem.pinm
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -12,10 +12,10 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.pinmem.memoryai.ui.navigation.AppNavGraph
-import com.pinmem.memoryai.ui.navigation.Screen
-import com.pinmem.memoryai.ui.navigation.bottomNavItems
-import com.pinmem.memoryai.ui.theme.MemoryAITheme
+import com.pinmem.pinm.ui.navigation.AppNavGraph
+import com.pinmem.pinm.ui.navigation.Screen
+import com.pinmem.pinm.ui.navigation.bottomNavItems
+import com.pinmem.pinm.ui.theme.PinMTheme
 
 /**
  * 主 Activity
@@ -26,12 +26,12 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            MemoryAITheme {
+            PinMTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    MemoryAIApp()
+                    PinMApp()
                 }
             }
         }
@@ -39,11 +39,11 @@ class MainActivity : ComponentActivity() {
 }
 
 /**
- * MemoryAI 主应用
+ * pinM 主应用
  * 包含底部导航和导航图
  */
 @Composable
-fun MemoryAIApp() {
+fun PinMApp() {
     val navController = rememberNavController()
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = navBackStackEntry?.destination?.route
@@ -54,7 +54,7 @@ fun MemoryAIApp() {
     Scaffold(
         bottomBar = {
             if (shouldShowBottomNav) {
-                MemoryAIBottomNavigationBar(
+                PinMBottomNavigationBar(
                     navController = navController,
                     currentRoute = currentRoute
                 )
@@ -73,7 +73,7 @@ fun MemoryAIApp() {
  * 底部导航栏
  */
 @Composable
-fun MemoryAIBottomNavigationBar(
+fun PinMBottomNavigationBar(
     navController: NavHostController,
     currentRoute: String?
 ) {

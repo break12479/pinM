@@ -1,13 +1,13 @@
-package com.pinmem.memoryai.data.repository
+package com.pinmem.pinm.data.repository
 
-import com.pinmem.memoryai.data.local.database.MemoryDao
-import com.pinmem.memoryai.data.local.database.SearchHistoryDao
-import com.pinmem.memoryai.data.local.vector.InMemoryVectorStore
-import com.pinmem.memoryai.data.model.Memory
-import com.pinmem.memoryai.data.model.SearchHistory
-import com.pinmem.memoryai.data.model.SearchResult
-import com.pinmem.memoryai.data.remote.AIApiService
-import com.pinmem.memoryai.util.AppLogger
+import com.pinmem.pinm.data.local.database.MemoryDao
+import com.pinmem.pinm.data.local.database.SearchHistoryDao
+import com.pinmem.pinm.data.local.vector.InMemoryVectorStore
+import com.pinmem.pinm.data.model.Memory
+import com.pinmem.pinm.data.model.SearchHistory
+import com.pinmem.pinm.data.model.SearchResult
+import com.pinmem.pinm.data.remote.AIApiService
+import com.pinmem.pinm.util.AppLogger
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.first

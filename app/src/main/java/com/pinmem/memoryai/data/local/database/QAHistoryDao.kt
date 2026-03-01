@@ -1,7 +1,7 @@
-package com.pinmem.memoryai.data.local.database
+package com.pinmem.pinm.data.local.database
 
 import androidx.room.*
-import com.pinmem.memoryai.data.model.QAHistory
+import com.pinmem.pinm.data.model.QAHistory
 import kotlinx.coroutines.flow.Flow
 
 /**

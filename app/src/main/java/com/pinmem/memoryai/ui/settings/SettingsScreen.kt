@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3Api::class)
 
-package com.pinmem.memoryai.ui.settings
+package com.pinmem.pinm.ui.settings
 
 import android.net.Uri
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -16,8 +16,8 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import com.pinmem.memoryai.viewmodel.SettingsUiState
-import com.pinmem.memoryai.viewmodel.SettingsViewModel
+import com.pinmem.pinm.viewmodel.SettingsUiState
+import com.pinmem.pinm.viewmodel.SettingsViewModel
 import org.koin.androidx.compose.koinViewModel
 
 /**
@@ -198,7 +198,7 @@ fun SettingsScreen(
                     }
                     Spacer(modifier = Modifier.height(8.dp))
                     Text(
-                        text = "MemoryAI v1.0.0",
+                        text = "pinM v1.0.0",
                         style = MaterialTheme.typography.bodyMedium,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
@@ -248,7 +248,7 @@ fun SettingsScreen(
  */
 @Composable
 private fun AIConfigDialog(
-    currentConfig: com.pinmem.memoryai.data.model.AIConfig?,
+    currentConfig: com.pinmem.pinm.data.model.AIConfig?,
     onConfirm: (String, String, String?, String, String) -> Unit,
     onDismiss: () -> Unit
 ) {

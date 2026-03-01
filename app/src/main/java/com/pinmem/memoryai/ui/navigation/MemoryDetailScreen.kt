@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3Api::class)
 
-package com.pinmem.memoryai.ui.navigation
+package com.pinmem.pinm.ui.navigation
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -14,10 +14,10 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.pinmem.memoryai.data.model.Memory
-import com.pinmem.memoryai.ui.components.MemoryCard
-import com.pinmem.memoryai.viewmodel.MemoryDetailViewModel
-import com.pinmem.memoryai.viewmodel.MemoryDetailUiState
+import com.pinmem.pinm.data.model.Memory
+import com.pinmem.pinm.ui.components.MemoryCard
+import com.pinmem.pinm.viewmodel.MemoryDetailViewModel
+import com.pinmem.pinm.viewmodel.MemoryDetailUiState
 import org.koin.androidx.compose.koinViewModel
 
 /**

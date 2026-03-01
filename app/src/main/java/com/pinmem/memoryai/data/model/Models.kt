@@ -1,4 +1,4 @@
-package com.pinmem.memoryai.data.model
+package com.pinmem.pinm.data.model
 
 /**
  * AI 分类结果

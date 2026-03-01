@@ -1,11 +1,11 @@
-package com.pinmem.memoryai.viewmodel
+package com.pinmem.pinm.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.pinmem.memoryai.data.model.Memory
-import com.pinmem.memoryai.data.model.SearchHistory
-import com.pinmem.memoryai.data.model.SearchResult
-import com.pinmem.memoryai.data.repository.SearchRepository
+import com.pinmem.pinm.data.model.Memory
+import com.pinmem.pinm.data.model.SearchHistory
+import com.pinmem.pinm.data.model.SearchResult
+import com.pinmem.pinm.data.repository.SearchRepository
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.*

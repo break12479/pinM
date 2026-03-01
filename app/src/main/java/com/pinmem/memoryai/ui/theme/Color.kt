@@ -1,4 +1,4 @@
-package com.pinmem.memoryai.ui.theme
+package com.pinmem.pinm.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

@@ -1,4 +1,4 @@
-package com.pinmem.memoryai.ui.theme
+package com.pinmem.pinm.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.*
@@ -58,7 +58,7 @@ private val DarkColorScheme = darkColorScheme(
 )
 
 @Composable
-fun MemoryAITheme(
+fun PinMTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {

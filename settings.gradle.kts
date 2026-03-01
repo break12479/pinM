@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MemoryAI"
+rootProject.name = "pinM"
 include(":app")

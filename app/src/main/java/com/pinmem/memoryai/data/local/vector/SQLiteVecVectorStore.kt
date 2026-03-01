@@ -1,8 +1,8 @@
-package com.pinmem.memoryai.data.local.vector
+package com.pinmem.pinm.data.local.vector
 
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
-import com.pinmem.memoryai.util.AppLogger
+import com.pinmem.pinm.util.AppLogger
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.File

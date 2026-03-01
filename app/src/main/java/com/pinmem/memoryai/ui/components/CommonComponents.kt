@@ -1,4 +1,4 @@
-package com.pinmem.memoryai.ui.components
+package com.pinmem.pinm.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -22,8 +22,8 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.pinmem.memoryai.data.model.Memory
-import com.pinmem.memoryai.data.model.ProcessingStatus
+import com.pinmem.pinm.data.model.Memory
+import com.pinmem.pinm.data.model.ProcessingStatus
 
 /**
  * 获取分类对应的图标

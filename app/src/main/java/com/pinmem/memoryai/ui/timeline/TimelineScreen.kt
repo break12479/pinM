@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3Api::class)
 
-package com.pinmem.memoryai.ui.timeline
+package com.pinmem.pinm.ui.timeline
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -14,10 +14,10 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.pinmem.memoryai.data.model.Memory
-import com.pinmem.memoryai.ui.components.*
-import com.pinmem.memoryai.viewmodel.TimelineUiState
-import com.pinmem.memoryai.viewmodel.TimelineViewModel
+import com.pinmem.pinm.data.model.Memory
+import com.pinmem.pinm.ui.components.*
+import com.pinmem.pinm.viewmodel.TimelineUiState
+import com.pinmem.pinm.viewmodel.TimelineViewModel
 import org.koin.androidx.compose.koinViewModel
 import java.util.*
 
@@ -44,7 +44,7 @@ fun TimelineScreen(
             TopAppBar(
                 title = { 
                     Text(
-                        text = "MemoryAI",
+                        text = "pinM",
                         style = MaterialTheme.typography.headlineSmall
                     ) 
                 },

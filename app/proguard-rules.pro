@@ -3,7 +3,7 @@
 # proguardFiles setting in build.gradle.
 
 # Keep Room entities
--keep class com.pinmem.memoryai.data.model.** { *; }
+-keep class com.pinmem.pinm.data.model.** { *; }
 
 # Keep Kotlinx Serialization
 -keepattributes *Annotation*, InnerClasses

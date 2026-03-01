@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.pinmem.memoryai.debug",
+  "applicationId": "com.pinmem.pinm.debug",
   "variantName": "debug",
   "elements": []
 }

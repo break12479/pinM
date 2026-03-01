@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.pinmem.memoryai.app-mergeDebugResources-66:/values-v26/values-v26.xml",
+            "outputFile": "com.pinmem.pinm.app-mergeDebugResources-66:/values-v26/values-v26.xml",
             "map": [
                 {
                     "source": "C:\\Users\\break\\.gradle\\caches\\8.10.2\\transforms\\532c69f25b37fecefa6db8f5c0c4a44c\\transformed\\appcompat-1.6.1\\res\\values-v26\\values-v26.xml",

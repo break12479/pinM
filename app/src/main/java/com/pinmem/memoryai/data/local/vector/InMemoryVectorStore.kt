@@ -1,4 +1,4 @@
-package com.pinmem.memoryai.data.local.vector
+package com.pinmem.pinm.data.local.vector
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

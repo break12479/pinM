@@ -1,6 +1,6 @@
-package com.pinmem.memoryai.data.service
+package com.pinmem.pinm.data.service
 
-import com.pinmem.memoryai.util.Constants
+import com.pinmem.pinm.util.Constants
 
 /**
  * AI Prompt 模板管理

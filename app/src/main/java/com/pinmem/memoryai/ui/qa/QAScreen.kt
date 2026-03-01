@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3Api::class)
 
-package com.pinmem.memoryai.ui.qa
+package com.pinmem.pinm.ui.qa
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -21,7 +21,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.pinmem.memoryai.viewmodel.*
+import com.pinmem.pinm.viewmodel.*
 import org.koin.androidx.compose.koinViewModel
 
 /**
@@ -204,7 +204,7 @@ fun QAScreen(
  */
 @Composable
 private fun HistoryQuickAccessItem(
-    history: com.pinmem.memoryai.data.model.QAHistory,
+    history: com.pinmem.pinm.data.model.QAHistory,
     onClick: () -> Unit
 ) {
     Card(
@@ -444,8 +444,8 @@ private fun ThinkingIndicator() {
  */
 @Composable
 private fun HistorySidebar(
-    histories: List<com.pinmem.memoryai.data.model.QAHistory>,
-    onSelect: (com.pinmem.memoryai.data.model.QAHistory) -> Unit,
+    histories: List<com.pinmem.pinm.data.model.QAHistory>,
+    onSelect: (com.pinmem.pinm.data.model.QAHistory) -> Unit,
     onClear: () -> Unit,
     onDismiss: () -> Unit
 ) {
@@ -530,7 +530,7 @@ private fun HistorySidebar(
  */
 @Composable
 private fun HistoryItem(
-    history: com.pinmem.memoryai.data.model.QAHistory,
+    history: com.pinmem.pinm.data.model.QAHistory,
     onClick: () -> Unit
 ) {
     Card(

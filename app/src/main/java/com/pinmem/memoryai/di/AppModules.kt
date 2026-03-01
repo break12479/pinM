@@ -1,14 +1,14 @@
-package com.pinmem.memoryai.di
+package com.pinmem.pinm.di
 
-import com.pinmem.memoryai.data.local.database.MemoryDatabase
-import com.pinmem.memoryai.data.local.vector.InMemoryVectorStore
-import com.pinmem.memoryai.data.remote.AIApiService
-import com.pinmem.memoryai.data.remote.AIApiServiceImpl
-import com.pinmem.memoryai.data.remote.RetrofitFactory
-import com.pinmem.memoryai.data.repository.*
-import com.pinmem.memoryai.data.service.AIService
-import com.pinmem.memoryai.data.service.AIServiceImpl
-import com.pinmem.memoryai.viewmodel.*
+import com.pinmem.pinm.data.local.database.MemoryDatabase
+import com.pinmem.pinm.data.local.vector.InMemoryVectorStore
+import com.pinmem.pinm.data.remote.AIApiService
+import com.pinmem.pinm.data.remote.AIApiServiceImpl
+import com.pinmem.pinm.data.remote.RetrofitFactory
+import com.pinmem.pinm.data.repository.*
+import com.pinmem.pinm.data.service.AIService
+import com.pinmem.pinm.data.service.AIServiceImpl
+import com.pinmem.pinm.viewmodel.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

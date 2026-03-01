@@ -12,11 +12,11 @@ kotlin {
 }
 
 android {
-    namespace = "com.pinmem.memoryai"
+    namespace = "com.pinmem.pinm"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.pinmem.memoryai"
+        applicationId = "com.pinmem.pinm"
         minSdk = 26
         targetSdk = 34
         versionCode = 1

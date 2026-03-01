@@ -1,7 +1,7 @@
-package com.pinmem.memoryai.data.repository
+package com.pinmem.pinm.data.repository
 
-import com.pinmem.memoryai.data.local.database.AIConfigDao
-import com.pinmem.memoryai.data.model.AIConfig
+import com.pinmem.pinm.data.local.database.AIConfigDao
+import com.pinmem.pinm.data.model.AIConfig
 import kotlinx.coroutines.flow.Flow
 
 /**
